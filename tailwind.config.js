@@ -5,7 +5,7 @@ module.exports = {
 		extend: {
 			boxShadow: {
 				light: "0 5px 26px rgba(69,95,124,.15)",
-				dark: "0 1px 3px 0 rgba(0,0,0,.08), 0 5px 26px 0 rgba(67,94,131,.15)",
+				dark: "0 6px 10px rgba(0,0,0,.03), 0 1px 18px rgba(0,0,0,.07), 0 5px 26px 0 rgba(67,94,131,.15)",
 			},
 			screens: {
 				xl: "1186px",
