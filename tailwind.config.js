@@ -16,6 +16,8 @@ module.exports = {
 					primary: {
 						DEFAULT: "#0666e5",
 						hover: "#0a8dff",
+						pressed: "#0055AA",
+						inverted: "#0a8dff",
 					},
 					neutral: "#455f7c",
 					strong: "#0f2741",
@@ -24,13 +26,19 @@ module.exports = {
 					primary: {
 						DEFAULT: "#0666e5",
 						hover: "#0a8dff",
+						pressed: "#0055AA",
+						inverted: "#0a8dff",
 					},
 					neutral: {
 						DEFAULT: "#fff",
 						hover: "#f5f8fb",
 					},
 					strong: "#0f2741",
-					muted: "#f5f8fb",
+					muted: {
+						DEFAULT: "#f5f8fb",
+						hover: "#E5F1FF",
+					},
+					subtle: "#E5F1FF",
 				},
 				background: {
 					neutral: "#fff",
@@ -42,7 +50,12 @@ module.exports = {
 						DEFAULT: "#c4c4c4",
 						hover: "#0666e5",
 					},
-					primary: "#0666e5",
+					primary: {
+						DEFAULT: "#0666e5",
+						hover: "#0a8dff",
+						pressed: "#0055AA",
+						inverted: "#0a8dff",
+					},
 				},
 			},
 		},
